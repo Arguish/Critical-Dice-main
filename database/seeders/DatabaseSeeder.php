@@ -15,9 +15,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // Llamar al seeder de usuarios
+        // Llamar a los seeders en orden
         $this->call([
             UsersSeeder::class,
+            CharactersSeeder::class,
         ]);
     }
 }
