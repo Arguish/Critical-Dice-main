@@ -1,0 +1,265 @@
+/* Critical Dice - Custom AdminLTE Theme */
+/* Integración de la paleta de colores oscura con acentos naranjas */
+
+/* === Variables de colores === */
+:root {
+    --primary-900: #0a0a0a;
+    --primary-800: #1a1a1a;
+    --primary-700: #2d2d2d;
+    --primary-600: #404040;
+    --accent-orange: #ff6b35;
+    --accent-dark-orange: #e55a2b;
+    --accent-light-orange: #ff8c5a;
+}
+
+/* === Colores de fondo principales === */
+.dark-mode .content-wrapper,
+.dark-mode .main-footer,
+.dark-mode .main-header,
+body.dark-mode {
+    background-color: var(--primary-900) !important;
+    color: #e0e0e0 !important;
+}
+
+/* === Sidebar === */
+.dark-mode .main-sidebar,
+.sidebar-dark-orange {
+    background-color: var(--primary-800) !important;
+}
+
+.sidebar-dark-orange .nav-sidebar > .nav-item > .nav-link.active,
+.sidebar-dark-orange .nav-sidebar > .nav-item > .nav-link:hover {
+    background-color: var(--primary-700) !important;
+    color: var(--accent-orange) !important;
+}
+
+.sidebar-dark-orange .nav-link {
+    color: #c2c7d0 !important;
+}
+
+/* === Cards y Contenedores === */
+.dark-mode .card,
+.dark-mode .info-box,
+.dark-mode .small-box {
+    background-color: var(--primary-800) !important;
+    color: #e0e0e0 !important;
+    border-color: var(--primary-700) !important;
+}
+
+.dark-mode .card-header,
+.dark-mode .card-footer {
+    background-color: var(--primary-700) !important;
+    border-color: var(--primary-600) !important;
+}
+
+/* === Tablas === */
+.dark-mode .table {
+    color: #e0e0e0 !important;
+    background-color: var(--primary-800) !important;
+}
+
+.dark-mode .table thead th {
+    background-color: var(--primary-700) !important;
+    border-color: var(--primary-600) !important;
+    color: var(--accent-orange) !important;
+}
+
+.dark-mode .table-hover tbody tr:hover {
+    background-color: var(--primary-700) !important;
+}
+
+.dark-mode .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+/* === Botones === */
+.btn-orange,
+.btn-primary {
+    background-color: var(--accent-orange) !important;
+    border-color: var(--accent-orange) !important;
+    color: white !important;
+}
+
+.btn-orange:hover,
+.btn-primary:hover {
+    background-color: var(--accent-dark-orange) !important;
+    border-color: var(--accent-dark-orange) !important;
+}
+
+/* === Badges === */
+.badge-orange {
+    background-color: var(--accent-orange) !important;
+    color: white !important;
+}
+
+/* === Brand/Logo === */
+.dark-mode .brand-link {
+    background-color: var(--primary-900) !important;
+    border-bottom: 1px solid var(--primary-700) !important;
+}
+
+.dark-mode .brand-link .brand-text {
+    color: var(--accent-orange) !important;
+}
+
+/* Logo SVG en naranja */
+.dark-mode .brand-link .brand-image {
+    filter: brightness(0) saturate(100%) invert(56%) sepia(89%) saturate(2175%)
+        hue-rotate(337deg) brightness(102%) contrast(101%) !important;
+}
+
+.brand-link .brand-image {
+    filter: brightness(0) saturate(100%) invert(56%) sepia(89%) saturate(2175%)
+        hue-rotate(337deg) brightness(102%) contrast(101%) !important;
+}
+
+/* === Navbar === */
+.dark-mode .main-header {
+    background-color: var(--primary-800) !important;
+    border-bottom: 1px solid var(--primary-700) !important;
+}
+
+.dark-mode .navbar-dark .navbar-nav .nav-link {
+    color: #e0e0e0 !important;
+}
+
+.dark-mode .navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--accent-orange) !important;
+}
+
+/* === Forms === */
+.dark-mode .form-control,
+.dark-mode .custom-select {
+    background-color: var(--primary-700) !important;
+    border-color: var(--primary-600) !important;
+    color: #e0e0e0 !important;
+}
+
+.dark-mode .form-control:focus,
+.dark-mode .custom-select:focus {
+    background-color: var(--primary-700) !important;
+    border-color: var(--accent-orange) !important;
+    color: #e0e0e0 !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 107, 53, 0.25) !important;
+}
+
+/* === Inputs y Labels === */
+.dark-mode label,
+.dark-mode .col-form-label {
+    color: #e0e0e0 !important;
+}
+
+.dark-mode .form-text {
+    color: #a0a0a0 !important;
+}
+
+/* === Alertas personalizadas === */
+.dark-mode .alert-success {
+    background-color: rgba(40, 167, 69, 0.2) !important;
+    border-color: #28a745 !important;
+    color: #90ee90 !important;
+}
+
+.dark-mode .alert-danger {
+    background-color: rgba(220, 53, 69, 0.2) !important;
+    border-color: #dc3545 !important;
+    color: #ff6b6b !important;
+}
+
+.dark-mode .alert-info {
+    background-color: rgba(255, 107, 53, 0.2) !important;
+    border-color: var(--accent-orange) !important;
+    color: var(--accent-light-orange) !important;
+}
+
+/* === Small boxes (Dashboard widgets) === */
+.small-box.bg-info {
+    background-color: var(--accent-orange) !important;
+}
+
+.small-box.bg-success {
+    background-color: #28a745 !important;
+}
+
+.small-box.bg-warning {
+    background-color: #ffc107 !important;
+    color: var(--primary-900) !important;
+}
+
+.small-box .icon {
+    color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* === Enlaces === */
+.dark-mode a {
+    color: var(--accent-light-orange) !important;
+}
+
+.dark-mode a:hover {
+    color: var(--accent-orange) !important;
+}
+
+/* === Custom switch (checkbox) === */
+.dark-mode .custom-control-label::before {
+    background-color: var(--primary-700) !important;
+    border-color: var(--primary-600) !important;
+}
+
+.dark-mode
+    .custom-switch
+    .custom-control-input:checked
+    ~ .custom-control-label::before {
+    background-color: var(--accent-orange) !important;
+    border-color: var(--accent-orange) !important;
+}
+
+/* === Pagination === */
+.dark-mode .page-link {
+    background-color: var(--primary-700) !important;
+    border-color: var(--primary-600) !important;
+    color: #e0e0e0 !important;
+}
+
+.dark-mode .page-link:hover {
+    background-color: var(--primary-600) !important;
+    border-color: var(--accent-orange) !important;
+    color: var(--accent-orange) !important;
+}
+
+.dark-mode .page-item.active .page-link {
+    background-color: var(--accent-orange) !important;
+    border-color: var(--accent-orange) !important;
+}
+
+/* === Breadcrumb === */
+.dark-mode .breadcrumb {
+    background-color: var(--primary-800) !important;
+}
+
+.dark-mode .breadcrumb-item.active {
+    color: var(--accent-orange) !important;
+}
+
+/* === Text colors === */
+.text-orange {
+    color: var(--accent-orange) !important;
+}
+
+/* === Scrollbar personalizado === */
+.dark-mode ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.dark-mode ::-webkit-scrollbar-track {
+    background: var(--primary-800);
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+    background: var(--primary-600);
+    border-radius: 4px;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-orange);
+}

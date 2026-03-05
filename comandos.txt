@@ -1,0 +1,18 @@
+Crear e iniciar proyecto
+composer create-project laravel/laravel nombre-del-proyecto --> Crear proyecto Laravel donde estés ubicado
+cd nombre-del-proyecto --> te mueves dentro del proyecto
+php artisan serve --> inicia servidor, indica la ruta para buscar en el explorador
+
+Actualizar repositorio
+git init --> iniciar repositorio no necesario hacer si vas a clonar el que ya está hecho
+git add .
+git commit -m "Tu mensaje"
+git branch -M main --> mueve y fuerza las ramas y les llama main
+git remote add origin git@github.com:miusuario/nombredemiproyecto.git --> solo necesario la primera vez al crear el proyecto, con el clone no
+git push origin main --> si en vez de main pones el nombre de otra rama hace el push a ese
+
+git clone git@github.com:AndreaViHe/Critical-Dice.git clonarte el repositorio
+
+Comandos añadidos por Jav
+ php artisan upgrade -->  composer isntall y npm install en un solo comando
+ php artisan serve --> arrancar la app (npm run dev y php artisan serve)

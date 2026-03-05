@@ -1,0 +1,76 @@
+{
+    "folder-customization.folders": [
+        {
+            "path": "Critical-Dice\\vendor\\",
+            "color": "foldercustomization.AnsiColor88"
+        },
+        {
+            "path": "Critical-Dice\\tests\\",
+            "color": "foldercustomization.AnsiColor88"
+        },
+        {
+            "path": "Critical-Dice\\bootstrap\\cache\\",
+            "color": "foldercustomization.AnsiColor88"
+        },
+        {
+            "path": "Critical-Dice\\config\\",
+            "color": "foldercustomization.AnsiColor88"
+        },
+        {
+            "path": "Critical-Dice\\app\\Providers\\",
+            "color": "foldercustomization.AnsiColor88"
+        },
+        {
+            "path": "Critical-Dice\\bootstrap\\",
+            "color": "foldercustomization.AnsiColor88"
+        },
+        {
+            "path": "Critical-Dice\\resources\\",
+            "color": "foldercustomization.AnsiColor64"
+        },
+        {
+            "path": "Critical-Dice\\app\\Http\\Controllers\\",
+            "color": "foldercustomization.AnsiColor166"
+        },
+        {
+            "path": "Critical-Dice\\app\\Models\\",
+            "color": "foldercustomization.AnsiColor166"
+        },
+        {
+            "path": "Critical-Dice\\database\\",
+            "color": "foldercustomization.AnsiColor166"
+        },
+        {
+            "path": "Critical-Dice\\routes\\",
+            "color": "foldercustomization.AnsiColor64"
+        },
+        {
+            "path": "Critical-Dice\\storage\\framework\\",
+            "color": "foldercustomization.AnsiColor88"
+        },
+        {
+            "path": "Critical-Dice\\storage\\logs\\",
+            "color": "foldercustomization.AnsiColor88"
+        },
+        {
+            "path": "Critical-Dice\\storage\\app\\",
+            "color": "foldercustomization.AnsiColor198"
+        },
+        {
+            "path": "Critical-Dice\\storage\\",
+            "color": "foldercustomization.AnsiColor198"
+        },
+        {
+            "path": "Critical-Dice\\public\\",
+            "color": "foldercustomization.AnsiColor198"
+        },
+        {
+            "path": "Critical-Dice\\app\\",
+            "color": "foldercustomization.AnsiColor166"
+        },
+        {
+            "path": "Critical-Dice\\app\\Actions\\",
+            "color": "foldercustomization.AnsiColor88"
+        }
+    ]
+}
