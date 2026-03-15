@@ -32,7 +32,29 @@ class CharacterController extends Controller
             return redirect('/character/form?game=' . $game)
                 ->withErrors($e->validator->errors());
         }
+        if (false) {
+            //public function selector()
+            {
+                return view('character-selector');
+            }
 
+
+            //public function store(Request $request)
+            {
+                // Validar los datos de entrada
+                $validatedData = $request->validate([
+                    'nombre' => 'required|string|max:255',
+                    'modulo' => 'required|string|max:255',
+                    'atributo' => 'required|string|max:255',
+                ]);
+
+                // Crear un nuevo registro en la base de datos usando el modelo Character
+                $character = Character::create($validatedData);
+
+                // Redirigir a una página de éxito o mostrar un mensaje
+                return redirect()->back()->with('success', 'Personaje registrado exitosamente.');
+            }
+        }
         // ===========================================
         // PASO 1: Guardar en BASE DE DATOS (nuevo)
         // ===========================================
